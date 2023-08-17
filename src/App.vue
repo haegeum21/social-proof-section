@@ -1,26 +1,29 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <main>
+    <MainText></MainText>
+    <RatingList></RatingList>
+  </main>
+  
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MainText from './components/MainText.vue';
+import RatingList from './components/RatingList.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MainText,
+    RatingList
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
