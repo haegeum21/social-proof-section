@@ -1,15 +1,5 @@
 :root {
-    --clr-primary-magenta-dark: hsl(300, 43%, 22%);
-    --clr-primary-pink: hsl(333, 80%, 67%);
-
-    --clr-neutral-magenta-grey-dark: hsl(303, 10%, 53%);
-    --clr-neutral-magenta-grey-light: hsl(300, 24%, 96%);
-    --clr-neutral-white: hsl(0, 0%, 100%);
-
-    --ff:  'League Spartan', sans-serif;
-
     --fs-xs: 0.7rem;
-    /* --fs-s: 0.9375rem; */
     --fs-s: 1rem;
     --fs-m: 1.1em;
     --fs-l: 2.5rem;
@@ -27,9 +17,9 @@
 
 body {
     min-height: 100vh;
-    font-family: var(--ff);
+    font-family: 'League Spartan', sans-serif;
     font-size: var(--fs-m);
-    color: var(--clr-neutral-magenta-grey-dark);
+    color: hsl(303, 10%, 53%);
     text-align: center;
     padding: 5rem 1.45rem 0;
     display: flex;
@@ -52,7 +42,7 @@ h1 {
 }
 
 h1, h2 {
-    color: var(--clr-primary-magenta-dark);
+    color: hsl(300, 43%, 22%);
 }
 
 section> p {
@@ -62,7 +52,7 @@ section> p {
 }
 
 .rates {
-    background-color: var(--clr-neutral-magenta-grey-light);
+    background-color: hsl(300, 24%, 96%);
     border-radius: 0.5em;
     margin-bottom: 1rem;
     padding: 1.25rem 0;
@@ -80,9 +70,9 @@ section> p {
     margin-bottom: 3rem;
 }
 
-.card {
-    background-color: var(--clr-primary-magenta-dark);
-    color: var(--clr-neutral-magenta-grey-light);
+.box{
+    background-color: hsl(300, 43%, 22%);
+    color: hsl(300, 24%, 96%);
     margin: 1rem 0;
     border-radius: 0.5em;
     padding: 2.6em 2em;
@@ -108,23 +98,23 @@ section> p {
 }
 
 h4 {
-    color: var(--clr-primary-pink);
+    color: hsl(333, 80%, 67%);
     line-height: 1.6em;
     text-align: left;
     font-weight: var(--fw-s);
 }
 
-.attribution { 
+.footer { 
     font-size: var(--fs-xs); 
-    margin-bottom: 0.5em;
+    bottom: 0.5em;
 }
 
-.attribution a {
-    color: var(--clr-primary-magenta-dark); 
+.footer a {
+    color: hsl(300, 43%, 22%); 
 }
 
 a:hover {
-    color: var(--clr-primary-pink);
+    color: hsl(333, 80%, 67%);
     transition-duration: 0.5s;
 }
 
@@ -143,7 +133,7 @@ a:hover {
         align-items: center;
         margin: auto;
     }
-    .quotes {
+    .comm {
         display: flex;
         grid-column: -3 / -1;
         grid-row: 2 / 3;
@@ -164,7 +154,7 @@ a:hover {
         padding-right: 1rem;
         width: 80%;
     }
-    .card {
+    .box {
         height: 100%;
     }
     .one {

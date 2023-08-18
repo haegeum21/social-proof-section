@@ -2,6 +2,7 @@
   <main>
     <MainText></MainText>
     <RatingList></RatingList>
+    <CommentBoxes></CommentBoxes>
   </main>
   
 </template>
@@ -9,12 +10,14 @@
 <script>
 import MainText from './components/MainText.vue';
 import RatingList from './components/RatingList.vue';
+import CommentBoxes from './components/CommentBoxes.vue';
 
 export default {
   name: 'App',
   components: {
     MainText,
-    RatingList
+    RatingList,
+    CommentBoxes,
   }
 }
 </script>
