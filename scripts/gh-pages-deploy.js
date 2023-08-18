@@ -6,7 +6,7 @@
 
 // UPDATE THE FOLLOWING TO YOUR PROJECT NAME WITHIN GITHUB
 // eg https://dazecoop.github.io/PROJECT_NAME/ <- This bit
-const projectName = 'social-proof-section';
+const projectName = 'https://haegeum21.github.io/social-proof-section/';
 
 const execa = require('execa');
 const fs = require('fs');
