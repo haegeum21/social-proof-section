@@ -1,4 +1,4 @@
 const { defineConfig } = require('@vue/cli-service')
 module.exports = {
-  publicPath: process.env.NODE_ENV === "production" ? "/social-proof-section/" : "/",
+  publicPath :"/social-proof-section/",
 };
